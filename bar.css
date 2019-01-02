@@ -1,0 +1,223 @@
+#title {
+	height: 100px;
+	width:100%;
+	background-color: yellow;
+	text-align: center;
+}
+
+body {
+	
+}
+
+#playerAndEnemy {
+	float: left;
+}
+
+/* Enemy Image and Bar: */
+
+.enemy {
+	height:200px;
+	width: 800px;
+	margin-top: 10px;
+}
+
+#enemyImage {
+	height: 180px;
+	display: inline-block;
+}
+
+#addy {
+	height: 180px;
+	width: 120px;
+	border: 10px;
+	border-style:solid;
+	border-color:black;
+}
+
+#barParent {
+	display: inline-block;
+	height: 100%;
+	width: 650px;
+	background-color: red;
+}
+
+#barTableEnemy {
+	height: 100%;
+	width: 100%;
+	display: table;
+	
+}
+
+.enemyBar {
+	display:table-cell;
+	vertical-align:middle;
+	
+}
+
+#barBackground {
+	height: 50%;
+	width: calc(95% - 20px);
+	background-color: grey;
+	border: 10px;
+	border-style: solid;
+	border-color: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.greenBar {
+	height: 100%;
+	width: 0%;
+	background-color: green;
+}
+
+
+
+/* Player Image and Bar */
+
+#player {
+	height: 200px;
+	width: 800px;
+	margin-top: 10px;
+}
+
+#playerImageContainer {
+	height: 180px;
+	display: inline-block;
+}
+
+#playerImage {
+	height: 180px;
+	width: 120px;
+	border: 10px;
+	border-style: solid;
+	border-color: black;
+}
+
+#playerBarParent {
+	display: inline-block;
+	height: 100%;
+	width: 650px;
+	background-color: red;
+	text-align: right;
+}
+
+#playerBarTable {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+#playerBarCell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#playerBarGrey {
+	height: 50%;
+	width: calc(95% - 20px);
+	background-color: grey;
+	border: 10px;
+	border-style: solid;
+	border-color: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#playerBarGreen {
+	height: 100%;
+	width: 0%;
+	background-color: green;
+}
+
+/* Player Box */
+
+#playerbox {
+	height: 420px;
+	width: 420px;
+	border: 5px;
+	border-style: dotted;
+	border-color: black;
+	float: left;
+	margin-left: 1.25%;
+}
+
+
+.kirb {
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	margin-top: 195px;
+	margin-left: 195px;
+}
+
+#playerButton {
+	position: absolute;
+	height: 30px;
+	width: 70px;
+	margin-top: 195px;
+	margin-left: 175px;
+}
+
+#startAndReset {
+		margin-top: 10px;
+		display: block;
+}
+
+#startGame {
+		height: 50px;
+		width: 100px;
+		color: red;
+		display: inline-block;
+}
+
+#resetGame {
+		height: 50px;
+		width: 100px;
+		color: red;
+		display: inline-block;
+}
+
+#gameScreen {
+	
+}
+
+
+/* WinOrLoseScreen */
+
+#winScreen {
+	display: none;
+	text-align: center;
+}
+
+#loseScreen {
+		display: none;
+		text-align: center;
+}
+
+#trophy {
+	height: 50%;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+#skull {
+	height: 50%;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.anotherRound {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+

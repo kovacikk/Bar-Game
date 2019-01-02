@@ -1,0 +1,77 @@
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="bar.css">
+	</head>
+	<body>
+		<div id="gameScreen">
+			<div id="title">
+				<h1>Bar Game</h1>
+				<h3>by Kyle Kovacik</h3>
+			</div>
+			<div id="playerAndEnemy">
+				<div class="enemy">
+					<div id="enemyImage">
+						<img id="addy" src="Resources\addy.jpg" alt="Painter Girl">
+					</div>
+			
+					<div id="barParent"> 
+						<div id="barTableEnemy">
+							<div class=enemyBar>
+								<div id="barBackground">
+									<div id="barProgress" class="greenBar"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+				
+		
+				<div id="player">
+					<div id="playerImageContainer">
+						<img id="playerImage" src="Resources\DDD.jpg" alt="King Dedede">
+					</div>
+			
+					<div id="playerBarParent">
+						<div id="playerBarTable">
+							<div id="playerBarCell">
+								<div id="playerBarGrey">
+									<div id="playerBarGreen"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="playerbox">
+				<img class="kirb" id="kirbAttack0" src="Resources\kirb.png" alt="kirbAttack">
+				<img class="kirb" id="kirbAttack1" src="Resources\kirb.png" alt="kirbAttack">
+				<img class="kirb" id="kirbAttack2" src="Resources\kirb.png" alt="kirbAttack">
+				<img class="kirb" id="kirbAttack3" src="Resources\kirb.png" alt="kirbAttack">
+				<img class="kirb" id="kirbAttack4" src="Resources\kirb.png" alt="kirbAttack">
+			
+				<button id="playerButton">Attack!</button>
+			</div>
+			<div>
+				<button id="testMove">Test Move</button>
+				<button id="endMove">End Move</button>
+			</div>
+			<div id="startAndReset">
+				<button id="startGame">Start Game</button>
+				<button id="resetGame">Reset Game</button>
+			</div>
+		</div>
+		<div id="winScreen"> 
+			<h1 id="winText">You Won!</h1>
+			<img id="trophy" src="Resources\trophy.png" alt="trophy"></img>
+			<button id="anotherRound1" class="anotherRound">Another Round?</button>
+		</div>
+		<div id="loseScreen"> 
+			<h1 id="winText">You Lost...</h1>
+			<img id="skull" src="Resources\skull.png" alt="trophy"></img>
+			<button id="anotherRound2" class="anotherRound">Another Round?</button>
+		</div>
+	</body>
+	<script type="text/javascript" src="bar.js"></script>
+</html>
